@@ -1,0 +1,77 @@
+.card {
+    width: 220px;
+    margin: 2rem 2rem;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tags {
+    background-color: lightslategrey;
+    color: white;
+    width: 70px;
+    height: 25px;
+    text-align: center;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.postTags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cardCover {
+    max-width: 240px;
+    max-height: 340px;
+}
+
+@media (max-width: 550px) {
+    .postCard {
+        width: 40%;
+        margin: 10px 10px;
+    }
+
+    .card-body {
+        font-size: 12px;
+    }
+
+    .card-title {
+        font-size: 16px;
+    }
+
+    .tags {
+        width: 65px;
+        height: 18px;
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .optionInfo {
+        display: none;
+    }
+
+    .readMore {
+        font-size: 11px;
+        width: 80%;
+        margin: auto;
+
+    }
+
+    .card-title {
+        font-size: 14px;
+        width: 100%;
+        word-wrap: normal;
+        margin-left: 0;
+    }
+
+    .card-body {
+        padding-left: 10px;
+    }
+}

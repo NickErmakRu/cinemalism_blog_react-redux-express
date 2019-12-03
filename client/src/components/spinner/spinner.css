@@ -1,0 +1,58 @@
+@keyframes ldio-i7iir770x8c-r {
+    0%, 100% { animation-timing-function: cubic-bezier(0.2 0 0.8 0.8) }
+    50% { animation-timing-function: cubic-bezier(0.2 0.2 0.8 1) }
+    0% { transform: rotate(0deg) }
+    50% { transform: rotate(180deg) }
+    100% { transform: rotate(360deg) }
+}
+@keyframes ldio-i7iir770x8c-s {
+    0%, 100% { animation-timing-function: cubic-bezier(0.2 0 0.8 0.8) }
+    50% { animation-timing-function: cubic-bezier(0.2 0.2 0.8 1) }
+    0% { transform: translate(-54.17999999999999px,-54.17999999999999px) scale(0) }
+    50% { transform: translate(-54.17999999999999px,-54.17999999999999px) scale(1) }
+    100% { transform: translate(-54.17999999999999px,-54.17999999999999px) scale(0) }
+}
+
+.mySpinner {
+    margin: 150px auto;
+}
+
+.ldio-i7iir770x8c > div { transform: translate(0px,-27.089999999999996px) }
+.ldio-i7iir770x8c > div > div {
+    animation: ldio-i7iir770x8c-r 1.01010101010101s linear infinite;
+    transform-origin: 150.5px 150.5px;
+}
+.ldio-i7iir770x8c > div > div > div {
+    position: absolute;
+    transform: translate(150.5px, 117.992px);
+}
+.ldio-i7iir770x8c > div > div > div > div {
+    width: 108.35999999999999px;
+    height: 108.35999999999999px;
+    border-radius: 50%;
+    background: #0a0a0a;
+    animation: ldio-i7iir770x8c-s 1.01010101010101s linear infinite;
+}
+.ldio-i7iir770x8c > div > div:last-child {
+    animation-delay: -0.505050505050505s;
+}
+.ldio-i7iir770x8c > div > div:last-child > div > div {
+    animation-delay: -0.505050505050505s;
+    background: #28292f;
+}
+.loadingio-spinner-interwind-u7mj1ezfct {
+    width: 301px;
+    height: 301px;
+    display: inline-block;
+    overflow: hidden;
+    background: none;
+}
+.ldio-i7iir770x8c {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0; /* see note above */
+}
+.ldio-i7iir770x8c div { box-sizing: content-box; }

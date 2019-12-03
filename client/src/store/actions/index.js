@@ -1,0 +1,11 @@
+export const SET_USER = 'SET_USER'
+export const LOGOUT_USER = 'LOGOUT_USER'
+export const ERROR = 'ERROR'
+export const CLEAR_ERROR = 'CLEAR_ERROR'
+
+export const GET_POSTS = 'GET_POSTS'
+export const GET_POST = 'GET_POST'
+export const GET_IMG = 'GET_IMG'
+export const ADD_POST = 'ADD_POST'
+export const UPDATE_POST = 'UPDATE_POST'
+export const DELETE_POST = 'DELETE_POSTS'

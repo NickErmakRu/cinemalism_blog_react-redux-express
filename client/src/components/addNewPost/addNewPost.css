@@ -1,0 +1,9 @@
+.btnAddPost {
+    margin-top: 2rem;
+}
+
+.messageToUser {
+    margin-top: 5rem;
+    font-weight: bold;
+    font-size: 24px;
+}

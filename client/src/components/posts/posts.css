@@ -1,0 +1,8 @@
+.posts-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    min-width: 300px;
+}
+

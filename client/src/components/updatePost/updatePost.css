@@ -1,0 +1,18 @@
+.commentsArea {
+    display: none;
+}
+
+.btnSavePost {
+    margin-top: 2rem;
+}
+
+label {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.messageToUser {
+    margin-top: 5rem;
+    font-weight: bold;
+    font-size: 24px;
+}
